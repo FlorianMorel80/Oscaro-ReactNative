@@ -1,19 +1,40 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import * as React from 'react';
+import { Text, View, StyleSheet, Image } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import Ionicons from 'react-native-vector-icons/Ionicons';
+
+// *************Import Componennts********
+
+import Menu from './Components/Menu';
+// ***************************************
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    
+    <Menu />
+
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flex:1,
+    marginTop: 30,
+  },
+
+
+  menu: {
+    flex:1
+  },
+
+  pictotabNavigator: {
+    flex:1, 
+    flexDirection: 'row',
+    alignContent: 'flex-end'
+  },
+
+  bannier: {
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',

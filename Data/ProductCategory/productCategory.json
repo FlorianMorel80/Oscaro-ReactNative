@@ -1,0 +1,15 @@
+[
+    {
+        "title": "Pièces moteur", 
+        "img" : "../../assets/img/productCategory/motor.png'"
+    }, 
+
+    {
+        "title" : "Direction / Suspension / Train",
+        "img" : "../../assets/img/productCategory/wheel.png"
+    },
+    {
+        "title" : "Filtres et huile",
+        "img" : "../../assets/img/productCategory/Oil_Barrel.png"
+    }
+]
